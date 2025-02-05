@@ -4,10 +4,10 @@ java:S2095"RUse try-with-resources or close this "EntityManagerFactory" in a "
 ]	java:S125""<This block of commented-out lines of code should be removed.(ä¹ÝŸüÿÿÿÿ8¸øè·Í2
 X	java:S125)"<This block of commented-out lines of code should be removed.(ÂòÃè8¹øè·Í2
 L	java:S106,"+Replace this use of System.out by a logger.(œÊìþÿÿÿÿ8¹øè·Í2
-L	java:S106Q"+Replace this use of System.out by a logger.(¦€ë“üÿÿÿÿ8¿øè·Í2
-L	java:S106T"+Replace this use of System.out by a logger.(ªËàáøÿÿÿÿ8¿øè·Í2
-G	java:S106W"+Replace this use of System.out by a logger.(Í‚íÊ8Àøè·Í2
-G	java:S106Z"+Replace this use of System.out by a logger.(Õ…óô8Áøè·Í2
-X	java:S125_"<This block of commented-out lines of code should be removed.(­åþ¿8Ãøè·Í2
+L	java:S106R"+Replace this use of System.out by a logger.(¦€ë“üÿÿÿÿ8¿øè·Í2
+L	java:S106U"+Replace this use of System.out by a logger.(ªËàáøÿÿÿÿ8Àøè·Í2
+G	java:S106X"+Replace this use of System.out by a logger.(Í‚íÊ8Áøè·Í2
+G	java:S106["+Replace this use of System.out by a logger.(Õ…óô8Ž¯£¼Í2
+X	java:S125`"<This block of commented-out lines of code should be removed.(­åþ¿8Ãøè·Í2
 O
-java:S1144M"-Remove this unused private "listData" method.(¿¹òÖýÿÿÿÿ8Ãøè·Í2
+java:S1144N"-Remove this unused private "listData" method.(¿¹òÖýÿÿÿÿ8Ãøè·Í2

@@ -47,32 +47,33 @@ public class JpaTest {
 	private void createData() {
 
 
-		// Création d'un organisateur
-		Organisateur organisateur = new Organisateur("John", "Doe","75000", "john.doe@email.com", "john.doe@email.com", "123456789",25, Sexe.HOMME);
-
-		// Création d'un artiste
-		Artiste artiste = new Artiste("Ed Sheeran", "Edward", "Chanteur Britannique");
-
-		// Création d'un concert
-		Concert concert = new Concert(50, LocalDate.now(), "Paris", 5000);
-		concert.setPrix(50);
-
-
-		// Création d'un utilisateur
-		User user = new User("Alice", "Smith", "75000", "alice.smith@email.com", "alice.smith@email.com", "123456789",25, Sexe.FEMME);
-		// Création d'un ticket pour l'utilisateur
-		Ticket ticket = new Ticket(50);
-
-
-		// Persist des entités dans la base de données
+		Organisateur organisateur = new Organisateur("John", "Doe", "75000", "john.doe@email.com", "123456789", "password123", 25, Sexe.HOMME);
 		manager.persist(organisateur);
+
+
+		Artiste artiste = new Artiste("Ed Sheeran", "Edward", "Chanteur Britannique");
 		manager.persist(artiste);
+
+		// Création d'un concert et liaison avec artiste + organisateur
+		Concert concert = new Concert( LocalDate.now(), "Paris", 5000);
+		concert.setArtiste(artiste); // 🔹 Associe l’artiste au concert
+		concert.setOrganisateur(organisateur); // 🔹 Associe l'organisateur
 		manager.persist(concert);
+
+		//Création d'un utilisateur
+		User user = new User("Alice", "Smith", "75000", "alice.smith@email.com", "123456789", "password456", 25, Sexe.FEMME);
 		manager.persist(user);
-		manager.persist(ticket);
 
+		//Création d'un ticket lié à l’utilisateur et au concert
+		Ticket ticket1 = new Ticket(50, concert,user);
+		Ticket ticket2 = new Ticket(80, concert,user);  // Ex : VIP
+		Ticket ticket3 = new Ticket(30, concert,user);  // Ex : Tarif étudiant
 
+		manager.persist(ticket1);
+		manager.persist(ticket2);
+		manager.persist(ticket3);
 	}
+
 
 	private void listData() {
 

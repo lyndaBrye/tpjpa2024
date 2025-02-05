@@ -11,7 +11,7 @@ public class Concert {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private int prix;
+
     private LocalDate date;
     private String lieu;
     private int capacity;
@@ -29,11 +29,11 @@ public class Concert {
     }
 
 
-    public Concert(int prix, LocalDate date, String lieu, int capacity) {
-        this.prix = prix;
+    public Concert(LocalDate date, String lieu, int capacity) {
         this.date = date;
         this.lieu = lieu;
         this.capacity = capacity;
+
     }
 
     public Long getId() {
@@ -42,14 +42,6 @@ public class Concert {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public int getPrix() {
-        return prix;
-    }
-
-    public void setPrix(int prix) {
-        this.prix = prix;
     }
 
     public LocalDate getDate() {
@@ -80,11 +72,18 @@ public class Concert {
     public String toString() {
         return "Concert{" +
                 "id=" + id +
-                ", prix=" + prix +
                 ", date=" + date +
                 ", lieu='" + lieu + '\'' +
                 ", capacity=" + capacity +
                 '}';
     }
 
+    public void setArtiste(Artiste artiste) {
+        this.artiste = artiste;
     }
+
+    public void setOrganisateur(Organisateur organisateur) {
+        this.organisateur = organisateur;
+    }
+
+}

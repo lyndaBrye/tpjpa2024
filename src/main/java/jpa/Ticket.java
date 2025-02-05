@@ -22,7 +22,9 @@ public class Ticket {
     }
 
 
-    public Ticket(double prix) {
+    public Ticket(double prix, Concert concert, User user) {
+        this.user = user;
+        this.concert = concert;
         this.prix = prix;
     }
 
