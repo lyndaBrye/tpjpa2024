@@ -22,9 +22,7 @@ public class Concert {
     @OneToMany(mappedBy = "concert",cascade = CascadeType.ALL)
     private List<Ticket> tickets;
 
-    @ManyToOne
-    @JoinColumn(name = "organisateur_id")  // Clé étrangère en DB
-    private Organisateur organisateur;
+
     public Concert() {
     }
 

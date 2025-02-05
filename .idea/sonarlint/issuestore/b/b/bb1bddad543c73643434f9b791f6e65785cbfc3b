@@ -1,0 +1,10 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶¯çé8ìÃñ«Í2
+C
+java:S5164
+"!Call "remove()" on "threadLocal".(¬Êä‘øÿÿÿÿ8öÃñ«Í2
+\
+java:S1118":Add a private constructor to hide the implicit public one.(˜•¯ôüÿÿÿÿ8öÃñ«Í2
+H
+java:S5164"&Use "remove()" instead of "set(null)".(ü€Ê„úÿÿÿÿ8ûÃñ«Í2

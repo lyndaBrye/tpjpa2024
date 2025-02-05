@@ -1,2 +1,7 @@
-package jpa;public class Sexe {
+package jpa;
+
+public enum Sexe {
+    HOMME,
+    FEMME
+
 }

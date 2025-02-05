@@ -1,2 +1,4 @@
-package jpa;public class Main {
+package jpa;
+
+public class Main {
 }
