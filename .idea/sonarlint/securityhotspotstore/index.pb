@@ -33,3 +33,13 @@ K
 src/main/java/jpa/Sexe.java,4\3\43243c0961398c68573b60fca36dfdf475672bc6
 K
 src/main/java/jpa/Main.java,1\6\167cbf66e874dbda096d7bc0f68ef1f5f86bf582
+J
+src/main/webapp/index.html,1\3\1337d72a3b1928dba82aa5210f5cdc0e88ce895b
+L
+src/main/java/MyServlet.java,4\0\409fa45e87a988338e5c05353d11c4fdc52a244a
+K
+src/main/webapp/myform.html,7\8\78c0f8d4e456e9f783a775018169f83f90d70100
+T
+$src/main/java/servlet/UserInfor.java,3\b\3b4e2d83be2819ab7d77f3194698534834b472a4
+S
+#src/main/java/servlet/UserInfo.java,e\7\e7009821a597fbb5d25457b035eb5e1b6f10660f

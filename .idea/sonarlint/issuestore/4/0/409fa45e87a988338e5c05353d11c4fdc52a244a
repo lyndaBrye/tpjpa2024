@@ -1,0 +1,11 @@
+
+¾
+java:S1598" This file "MyServlet.java" should be located in "servlet" directory, not in "C:\Users\amaur\Documents\Etude_sup\MASTER 1\SIR\projetjpa\tpjpa2024\src\main\java".(ĞóÁ»8åŞÙûÎ2
+x
+java:S1989"VHandle the following exception that could be thrown by "getOutputStream": IOException.(¤­Ğ¶øÿÿÿÿ8€ßÙûÎ2
+E
+java:S1185"(Remove this method to simply inherit it.(­‘úå8‚ßÙûÎ2
+‚
+java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(Í†»Öúÿÿÿÿ8ƒßÙûÎ2
+T
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ƒßÙûÎ2
